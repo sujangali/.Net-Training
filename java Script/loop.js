@@ -58,7 +58,10 @@ example:-2*/
 //  }
 
 // example :-2
-for(i=0;1<=10;i++)
+for(i=0;i<=7;i++)
 {
-    console.log("i can achieve my goal at any cost");
+    console.log(i);
+    console.log("hello world");
 }
+while example:-1
+
