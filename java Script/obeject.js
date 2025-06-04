@@ -24,9 +24,31 @@
 // {
 //     console.log(games[3]);
 // }
+
+//Object example:-3
+/*let scienctist = {
+    name      :"Graham Bell",
+    invented  :"Telephone",
+    year      :1876,
+    country   :"AMERICA"
+}
+console.log(scienctist.name);
+console.log(scienctist.invented.toUpperCase());
+console.log(scienctist.country.toLowerCase());
+console.log(scienctist.year);*/
+
+//object:-4
+let fruit ={
+    name     :"Guava",
+    vitamins :["c","A","k","E"],
+    colour   :"Green",
+}
+console.log(fruit.colour);
+console.log(fruit.vitamins[2]);
+
 //  Array example:-2
 
- let course = [
+/*let course = [
      java ={
         name :"coreJava",
         duration :"6 months",
@@ -38,4 +60,4 @@
         fee      :26000
     }
  ]
- console.log(course[1].fee);
+ console.log(course[1].fee);*/
