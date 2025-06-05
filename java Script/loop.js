@@ -57,11 +57,36 @@ example:-2*/
 //     console.log(i);
 //  }
 
-// example :-2
-for(i=0;i<=7;i++)
+// // example :-2
+// for(i=0;i<=7;i++)
+// {
+//     console.log(i);
+//     console.log("hello world");
+// } 
+// example:-3
+// let course=['Java','HTML','CSS','bootstrap']
+// for(let i=0;i<course.length;i++)
+// {
+//     console.log(course[i=3]);
+// }
+
+//while example:-1
+let i=0;
+while (i<=10);
 {
     console.log(i);
-    console.log("hello world");
+    i++
 }
-while example:-1
-
+ 
+//]DoWhile example:-1
+// let i=0;
+// do
+// {
+//    console.log(i); 
+// }
+// while (i<=5)``  `
+//  example:-3
+//      let number = 1
+//     while number <= 5:
+//         console.log(number)
+//         number += 1``
