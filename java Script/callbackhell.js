@@ -12,7 +12,7 @@ function sleep(){
 
 }
 
-function Testsleep(){
+/*function Testsleep(){
 
     sleep();
     console.log('Task Complete');
@@ -39,4 +39,34 @@ function StepThree(){
         StepTwo(() =>{
             StepThree();
         })
-    })
+    })*/
+
+    //example :-2
+
+    function StepOne(callbackfn){
+     sleep(3000);
+        console.log("Step One");
+        callbackfn();
+}
+
+function StepTwo(callbackfn){
+    sleep(5000);
+        console.log("Step Two");
+        callbackfn();
+}
+
+function StepThree(){
+    sleep(8000);
+        console.log("Step Three");
+}
+
+console.time("MyTaskTime");
+
+ StepOne(()=>{
+        StepTwo(()=>{
+            StepThree();
+        })
+     })
+
+    console.timeEnd("MyTaskTime");
+    console.log("All Works are Done...");
