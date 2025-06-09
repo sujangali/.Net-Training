@@ -1,6 +1,6 @@
 //callbackhell :-ex:-1
 
-function sleep(){
+/*function sleep(){
 
     var startDateTime = new Date().getTime();
     var endDateTime  = startDateTime + 6000
@@ -12,13 +12,13 @@ function sleep(){
 
 }
 
-/*function Testsleep(){
+function Testsleep(){
 
     sleep();
     console.log('Task Complete');
 }
 
-Testsleep();
+Testsleep();*/
 
 
 function StepOne(callbackfn){
@@ -39,34 +39,8 @@ function StepThree(){
         StepTwo(() =>{
             StepThree();
         })
-    })*/
+    })
 
-    //example :-2
+    
 
-    function StepOne(callbackfn){
-     sleep(3000);
-        console.log("Step One");
-        callbackfn();
-}
-
-function StepTwo(callbackfn){
-    sleep(5000);
-        console.log("Step Two");
-        callbackfn();
-}
-
-function StepThree(){
-    sleep(8000);
-        console.log("Step Three");
-}
-
-console.time("MyTaskTime");
-
- StepOne(()=>{
-        StepTwo(()=>{
-            StepThree();
-        })
-     })
-
-    console.timeEnd("MyTaskTime");
-    console.log("All Works are Done...");
+    
